@@ -1,0 +1,18 @@
+{
+  "name": "talentsforai-telegram-bot",
+  "version": "1.0.0",
+  "description": "Telegram bot for Talents for AI site management",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js",
+    "dev": "node --watch bot.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "node-cron": "^3.0.3",
+    "node-telegram-bot-api": "^0.66.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
